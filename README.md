@@ -1,4 +1,4 @@
 vantage
 =======
 
-My Personal Boilerplate
+A personal boilerplate.
