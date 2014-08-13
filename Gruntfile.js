@@ -10,14 +10,14 @@ module.exports = function(grunt) {
                     'js/plugins.js',
                     'js/main.js'
                 ],
-                dest: 'js/production/app.js'
+                dest: 'production/app.js'
             }
         },
 
         uglify: {
             build: {
-                src: 'js/production/app.js',
-                dest: 'js/production/app.min.js'
+                src: 'production/app.js',
+                dest: 'production/app.min.js'
             }
         },
         sass: {
@@ -33,7 +33,7 @@ module.exports = function(grunt) {
         cssmin : {
             combine : {
                 files : {
-                    'css/production/app.css' : ['css/style.css', 'css/reset.css']
+                    'production/app.css' : ['css/style.css', 'css/reset.css']
                 }
             }
         },
