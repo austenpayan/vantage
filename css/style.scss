@@ -37,6 +37,12 @@
 	@include transform(translate(-50%, 0%));
 }
 
+@mixin centerVertical {
+	position: relative;
+	top:50%;
+	@include transform(translateY(-50%));
+}
+
 @mixin triangle($direction, $color) {
 	//for the longer border length, add the two shorter together
 	// and find 86.66% of that sum, and use it.
